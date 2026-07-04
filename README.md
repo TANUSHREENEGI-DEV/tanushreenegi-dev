@@ -1,4 +1,4 @@
-@'
+
 <h1 align="center">Hi there, I'm Tanushree 🌸</h1>
 <h3 align="center">B.Tech AI & ML Student • Aspiring Full Stack Developer</h3>
 
@@ -74,4 +74,4 @@ Add new projects here as you build them, same row format:
 </p>
 
 <p align="center"><i>"The universe is made of code and stardust — I'm learning both." 🔭</i></p>
-'@ | Set-Content -Encoding UTF8 README.md
+

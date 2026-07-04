@@ -62,7 +62,7 @@ Add new projects here as you build them, same row format:
 ### 📊 GitHub Stats
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=tanushreenegi-dev&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tanushreenegi-dev&hide_border=true" alt="GitHub Streak" height="165"/>
+  <img src="https://streak-stats.demolab.com/?user=tanushreenegi-dev&hide_border=true" alt="GitHub Streak" height="165"/>
 </p>
 
 ---

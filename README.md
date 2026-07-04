@@ -61,20 +61,12 @@ Add new projects here as you build them, same row format:
 
 ### 📊 GitHub Stats
 <p align="left">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tanushreenegi-dev&theme=buefy" alt="Profile Details" />
-</p>
-<p align="left">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tanushreenegi-dev&theme=buefy" alt="Top Languages by Repo" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tanushreenegi-dev&theme=buefy" alt="Top Languages by Commit" />
-</p>
-<p align="left">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tanushreenegi-dev&theme=buefy" alt="Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tanushreenegi-dev&theme=buefy" alt="Top Languages" />
 </p>
 <p align="left">
   <img src="https://github-readme-streak-stats-eight.vercel.app/?user=tanushreenegi-dev&hide_border=true" alt="GitHub Streak" height="165"/>
 </p>
-
----
 
 ### 📬 Let's Connect
 <p align="left">

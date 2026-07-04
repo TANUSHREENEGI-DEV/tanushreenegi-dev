@@ -61,8 +61,11 @@ Add new projects here as you build them, same row format:
 
 ### 📊 GitHub Stats
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=tanushreenegi-dev&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" height="165"/>
- <img src="https://github-readme-streak-stats-eight.vercel.app/?user=tanushreenegi-dev&hide_border=true" alt="GitHub Streak" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tanushreenegi-dev&theme=github_dark" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tanushreenegi-dev&theme=github_dark" alt="Most Used Languages" />
+</p>
+<p align="left">
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=tanushreenegi-dev&hide_border=true" alt="GitHub Streak" height="165"/>
 </p>
 
 ---

@@ -1,0 +1,70 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe9f2"/>
+      <stop offset="50%" stop-color="#ffd3e6"/>
+      <stop offset="100%" stop-color="#ffc0da"/>
+    </linearGradient>
+    <radialGradient id="petal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffcfe3"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="200" rx="20" fill="url(#bg)"/>
+
+  <!-- soft decorative circles -->
+  <circle cx="840" cy="35" r="55" fill="#ffffff" opacity="0.25"/>
+  <circle cx="50" cy="175" r="70" fill="#ffffff" opacity="0.20"/>
+
+  <!-- blossom flower, top right - gently swaying -->
+  <g transform="translate(795,55)">
+    <animateTransform attributeName="transform" type="rotate" values="-6 795 55; 6 795 55; -6 795 55" dur="4s" repeatCount="indefinite" additive="sum"/>
+    <g>
+      <ellipse cx="0" cy="-18" rx="12" ry="16" fill="url(#petal)"/>
+      <ellipse cx="17" cy="-6" rx="12" ry="16" fill="url(#petal)" transform="rotate(72 17 -6)"/>
+      <ellipse cx="10" cy="15" rx="12" ry="16" fill="url(#petal)" transform="rotate(144 10 15)"/>
+      <ellipse cx="-10" cy="15" rx="12" ry="16" fill="url(#petal)" transform="rotate(216 -10 15)"/>
+      <ellipse cx="-17" cy="-6" rx="12" ry="16" fill="url(#petal)" transform="rotate(288 -17 -6)"/>
+      <circle cx="0" cy="0" r="8" fill="#ffb6d5"/>
+    </g>
+  </g>
+
+  <!-- small blossom, bottom right - gently bobbing -->
+  <g transform="translate(720,140) scale(0.55)">
+    <animateTransform attributeName="transform" type="translate" values="720,140; 720,133; 720,140" dur="3.2s" repeatCount="indefinite" additive="sum"/>
+    <g>
+      <ellipse cx="0" cy="-18" rx="12" ry="16" fill="url(#petal)"/>
+      <ellipse cx="17" cy="-6" rx="12" ry="16" fill="url(#petal)" transform="rotate(72 17 -6)"/>
+      <ellipse cx="10" cy="15" rx="12" ry="16" fill="url(#petal)" transform="rotate(144 10 15)"/>
+      <ellipse cx="-10" cy="15" rx="12" ry="16" fill="url(#petal)" transform="rotate(216 -10 15)"/>
+      <ellipse cx="-17" cy="-6" rx="12" ry="16" fill="url(#petal)" transform="rotate(288 -17 -6)"/>
+      <circle cx="0" cy="0" r="8" fill="#ffb6d5"/>
+    </g>
+  </g>
+
+  <!-- falling petals, drifting down and fading -->
+  <ellipse cx="650" cy="20" rx="6" ry="9" fill="#ffffff" opacity="0.7" transform="rotate(30 650 20)">
+    <animate attributeName="cy" values="20;170;20" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="860" cy="120" rx="5" ry="8" fill="#ffffff" opacity="0.6" transform="rotate(-20 860 120)">
+    <animate attributeName="cy" values="120;180;120" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.15;0.6" dur="5.5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <text x="45" y="85" font-family="Verdana, Geneva, sans-serif" font-size="40" font-weight="bold" fill="#a83e6c">
+    Hi, I'm Tanushree 👋
+  </text>
+  <text x="45" y="120" font-family="Verdana, Geneva, sans-serif" font-size="18" fill="#b9578a">
+    B.Tech AI &amp; ML student &#183; Amrapali University, Haldwani
+  </text>
+  <text x="45" y="150" font-family="Verdana, Geneva, sans-serif" font-size="15" fill="#c46b98">
+    turning AI &amp; ML concepts into real, working full-stack projects
+  </text>
+
+  <!-- blinking cursor -->
+  <rect x="45" y="158" width="10" height="18" fill="#a83e6c">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,6 +1,6 @@
-
-<h1 align="center">Hi there, I'm Tanushree 🌸</h1>
-<h3 align="center">B.Tech AI & ML Student • Aspiring Full Stack Developer</h3>
+<p align="center">
+  <img src="./banner.svg" width="100%" alt="Tanushree banner" />
+</p>
 
 <p align="center">
   <a href="https://tanushreenegi-dev.github.io/resume/"><img src="https://img.shields.io/badge/Resume-View-FF69B4?style=flat-square" alt="Resume"/></a>
@@ -75,4 +75,3 @@ Add new projects here as you build them, same row format:
 </p>
 
 <p align="center"><i>"The universe is made of code and stardust — I'm learning both." 🔭</i></p>
-

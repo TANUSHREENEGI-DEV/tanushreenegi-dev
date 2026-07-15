@@ -62,9 +62,4 @@
   <text x="45" y="150" font-family="Verdana, Geneva, sans-serif" font-size="15" fill="#c46b98">
     turning AI &amp; ML concepts into real, working full-stack projects
   </text>
-
-  <!-- blinking cursor -->
-  <rect x="45" y="158" width="10" height="18" fill="#a83e6c">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
 </svg>
